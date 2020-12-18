@@ -3,5 +3,5 @@
 ##文件说明
 文件名|窗口截图|文件描述
 ------------------|------------------------------------------|-------------------
-Ui_PlayingTable.py|![我的操作](images/myoperation.png)|当前播放列表弹窗
-Ui_MyOperation.py |![播放列表](images/playingtable.png)|点击昵称后弹出的窗口
+Ui_PlayingTable.py|![我的操作](Images/myoperation.png)|当前播放列表弹窗
+Ui_MyOperation.py |![播放列表](Images/playingtable.png)|点击昵称后弹出的窗口
