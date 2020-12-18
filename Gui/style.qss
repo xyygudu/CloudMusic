@@ -1,0 +1,208 @@
+
+#MainWindow{
+    font-family:Microsoft YaHei;
+}
+
+/*set style for header*/
+QPushButton{
+    outline:0px;
+    border:none;
+}
+#btn_signin{
+    color:#bfbfbf;
+}
+#btn_signin:hover{
+    color:#fff;
+}
+#btn_setting{
+    border-image: url(:/icon/Resource/setup.png);
+}
+#btn_setting:hover{
+    border-image:url(:/icon/Resource/setup1.png);
+}
+#btn_minwin{
+    border-image:url(:/icon/Resource/minwin.png);
+}
+#btn_minwin:hover{
+    border-image:url(:/icon/Resource/minwin1.png);
+}
+#btn_maxwin{
+    border-image:url(:/icon/Resource/maxwin.png);
+}
+#btn_maxwin:hover{
+    border-image:url(:/icon/Resource/maxwin1.png);
+}
+#btn_closewin{
+    border-image:url(:/icon/Resource/close.png);
+}
+#btn_closewin:hover{
+    border-image:url(:/icon/Resource/close1.png);
+}
+
+
+
+/*set style for bottom*/
+#btn_preSong{
+    border-image:url(:/icon/Resource/prev.png);
+}
+#btn_preSong:hover{
+    border-image:url(:/icon/Resource/prev1.png);
+}
+#btn_nextSong{
+    border-image:url(:/icon/Resource/next.png);
+}
+#btn_nextSong:hover{
+    border-image:url(:/icon/Resource/next1.png);
+}
+
+#btn_play{
+    border-image:url(:/icon/Resource/play.png);
+}
+#btn_play:hover{
+    border-image:url(:/icon/Resource/play1.png);
+}
+
+QSlider:horizontal {
+    min-height: 30px;
+}
+QSlider::groove:horizontal {
+    height: 6px;
+    left:3px;
+    right:3px;
+    background: #ddd;
+}
+QSlider::handle:horizontal {
+    border-radius: 6px;
+    width:12px;
+    margin: -3px -3px;
+    background: gray;
+}
+QSlider::handle:horizontal:hover {
+    background: rgb(180,47,47);
+}
+QSlider::sub-page:Horizontal
+{
+    background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(250,40,19, 255), stop:1 rgba(250,166,19, 255));
+    height:4px;
+}
+
+#btn_playList{
+    border-image:url(:/icon/Resource/playinglist.png);
+}
+#btn_playList:hover{
+    border-image:url(:/icon/Resource/playinglist1.png);
+}
+
+#btn_playOder{
+    border-image:url(:/icon/Resource/sequenceplay.png);
+}
+#btn_playOder:hover{
+    border-image:url(:/icon/Resource/sequenceplay1.png);
+}
+
+
+
+/*set style for body*/
+
+/*set style for vertical QScrollBar*/
+QScrollBar:vertical{
+    width:9px;
+    border:0px solid rgba(64,99,250,50%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+QScrollBar::handle:vertical{
+    width:10px;
+    background:#eee;
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover{
+    background:#ddd;
+    border:0px rgba(0,0,0,25%);
+    border-radius:4px;
+}
+QScrollBar::sub-line:vertical{
+    height:0px;
+    background-color:rgba(255,255,255,255);
+    subcontrol-position:top;
+}
+QScrollBar::sub-line:vertical:hover{
+    height:0px;
+    background:rgba(0,0,0,25%);
+    subcontrol-position:top;
+}
+QScrollBar::add-line:vertical{
+    height:0px;
+    background-color:rgba(255,255,255,255);
+    subcontrol-position:bottom;
+}
+QScrollBar::add-line:vertical:hover{
+    height:0px;
+    background:rgba(0,0,0,25%);
+    subcontrol-position:bottom;
+}
+QScrollBar::add-page:vertical{
+    background:rgb(255,255,255);
+}
+QScrollBar::sub-page:vertical{
+    background:rgb(255,255,255);
+}
+QScrollBar::up-arrow:vertical{
+    border-width:0px;
+    max-height:16px;
+    min-width:17px;
+}
+QScrollBar::down-arrow:vertical{
+    border-style:outset;
+    border-width:0px;
+}
+
+/*set style for horizontal QScrollBar*/
+QScrollBar:horizontal{
+    height:9px;
+    border:0px solid rgba(64,99,250,50%);
+    margin:0px,0px,0px,0px;
+    padding-left:9px;
+    padding-right:9px;
+}
+QScrollBar::handle:horizontal{
+    height:16px;
+    background:rgba(64,99,250,25%);
+    border-radius:4px;
+    min-width:20;
+}
+QScrollBar::handle:horizontal:hover{
+    background:rgba(60,90,230,50%);
+    border:0px rgba(0,0,0,25%);
+    border-radius:4px;
+}
+QScrollBar::sub-line:horizontal{
+    width:15px;
+    subcontrol-position:left;
+}
+QScrollBar::sub-line:horizontal:hover{
+    width:15px;
+    background:rgba(0,0,0,25%);
+    subcontrol-position:left;
+}
+QScrollBar::add-line:horizontal{
+    width:15px;
+    subcontrol-position:right;
+}
+QScrollBar::add-line:horizontal:hover{
+    width:15px;
+    background:rgba(0,0,0,25%);
+    subcontrol-position:right;
+}
+QScrollBar::add-page:horizontal{
+    background:rgb(255,255,255);
+}
+QScrollBar::sub-page:horizontal{
+    background:rgb(255,255,255);
+}
+
+#broadcast_widget{
+    border-top:1px solid #e5e5e;
+}
